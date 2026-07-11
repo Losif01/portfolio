@@ -14,7 +14,7 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
@@ -24,147 +24,176 @@ const CONFIG = {
         },
       },
       manual: {
-        // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [
+          'Losif01/Smart-Palm-System-Monitor',
+          'Losif01/chess-m8',
+          'Losif01/Miki-the-tutor',
+          'Losif01/chess-game-analyzer',
+          'Losif01/yf-clustering',
+          'Losif01/Orthodox-Clusteringfr',
+        ],
       },
     },
     external: {
-      header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
+      header: 'Top Projects',
       projects: [
         {
-          title: 'Project Name',
+          title: 'Personal Secure Cloud',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'A self-hosted observability stack featuring Prometheus and Grafana, deployed using Ansible and Kubernetes with integrated CI/CD workflows.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'cloud.jpeg',
+          link: 'https://www.linkedin.com/posts/yousef-fawzi_devops-grafana-prometheus-activity-7445907820467748864-1coE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAETIo0MBtPUk_Gx1mJOZh-1m34eh-VQAnw8',
         },
         {
-          title: 'Project Name',
+          title: 'Miki The Tutor',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'An AI assistant that helps you study and explains concepts for you',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'miki.png', // Replace with an actual screenshot
+          link: 'https://github.com/Losif01/Miki-the-tutor',
+        },
+        {
+          title: 'AI Code Documentator',
+          description:
+            'it is frustrating to find a project with no proper docs for developers, so here is an AI that is actually useful and gives clear documentation for a code base',
+          imageUrl:
+            'AIDocs.png', // Replace with an actual screenshot
+          link: 'https://gitlab.com/skillIssueCM/ai-code-documentator-agent',
         },
       ],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+  seo: {
+    title: 'Yousef Fawzi',
+    description:
+      'DevOps & MLOps Engineer specializing in Infrastructure as Code, Kubernetes, and Python backend development.',
+    imageURL: '', // Add a link to your headshot or a preview image here
+  },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'yousef-fawzi',
+    x: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
     reddit: '',
     threads: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: '',
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    medium: 'yousefhadhood',
+    dev: '',
+    stackoverflow: '',
     discord: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: '',
+    website: '',
+    phone: '+201091722415',
+    email: 'youseffawzi.work@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1XXoVqwwoB1mO8tTK04_tBwYdJSxqTmVt/view?usp=sharing',
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
-  ],
+      // AI & MLOps
+      'MLOps Pipelines',
+      'Edge AI / Acoustic Edge Systems',
+      'Streamlit',
+      'FastAPI',
+      'Python',
+      'Pytorch',
+      'Tensorflow',
+      'Visualization',
+      // Infrastructure & Orchestration
+      'Docker',
+      'Docker Compose',
+      'Kubernetes',
+      'Terraform',
+      'Ansible',
+
+      // CI/CD & Observability
+      'Jenkins',
+      'Git',
+      'Prometheus',
+      'Grafana',
+
+      // Systems & Secure Networking
+      'Linux Administration',
+      'Bash scripting',
+      'Tailscale',
+
+      // Embedded Systems & IoT
+      'ESP32',
+      'Verilog',
+      'Proteus',
+    ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'DEPI',
+      position: 'DevOps Engineer Intern',
+      from: 'November 2025',
+      to: 'June 2026',
+      companyLink: 'https://depi.gov.eg',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'CIB Egypt',
+      position: 'AI intern',
+      from: 'August 2025',
+      to: 'September 2025',
+      companyLink: 'https://www.cibeg.com/',
     },
-  ],
-  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      company: 'National Telecom Institute',
+      position: 'NLP / Agents intern',
+      from: 'July 2025',
+      to: 'August 2025',
+      companyLink: 'https://www.nti.sci.eg',
+    },
+    {
+      company: 'IEEE Egypt',
+      position: 'ML/Data Scientist',
+      from: 'September 2024',
+      to: 'October 2024',
+      companyLink: 'https://ieee.org.eg/',
+    },
+    {
+      company: 'Information Technology Institute',
+      position: 'IoT intern',
+      from: 'August 2024',
+      to: 'September 2024',
+      companyLink: 'https://iti.gov.eg/home',
+    },
+    {
+      company: 'National Telecom Institute',
+      position: 'AI intern',
+      from: 'July 2023',
+      to: 'August 2023',
+      companyLink: 'https://www.nti.sci.eg',
     },
   ],
+  certifications: [],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Faculty of Artificial Intelligence', // Replace with your exact university name
+      degree: 'Bachelor of Artificial Intelligence',
+      from: '2022',
+      to: '2026',
     },
   ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-  ],
-  // Display articles from your medium or dev account. (Optional)
+  publications: [],
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    source: 'medium',
+    username: 'yousefhadhood',
+    limit: 5,
   },
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: '',
   },
-  // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'garden',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -219,7 +248,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
+  footer: `Made with <a
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
