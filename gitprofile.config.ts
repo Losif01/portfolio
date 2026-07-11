@@ -40,7 +40,7 @@ const CONFIG = {
         {
           title: 'Personal Secure Cloud',
           description:
-            'A self-hosted observability stack featuring Prometheus and Grafana, deployed using Ansible and Kubernetes with integrated CI/CD workflows.',
+            'A comprehensive self-hosted infrastructure and observability stack. Deployed using Ansible and Kubernetes, it features a robust monitoring pipeline with Prometheus and Grafana, integrated CI/CD workflows, and secure automated data management environments backed by PostgreSQL.',
           imageUrl:
             'cloud.jpeg',
           link: 'https://www.linkedin.com/posts/yousef-fawzi_devops-grafana-prometheus-activity-7445907820467748864-1coE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAETIo0MBtPUk_Gx1mJOZh-1m34eh-VQAnw8',
@@ -48,7 +48,7 @@ const CONFIG = {
         {
           title: 'Miki The Tutor',
           description:
-            'An AI assistant that helps you study and explains concepts for you',
+            'An intelligent, AI-powered educational assistant designed to break down complex topics and facilitate personalized learning. Developed utilizing modern NLP techniques and a scalable Python backend, it provides real-time, context-aware study support to enhance knowledge retention.',
           imageUrl:
             'miki.png', // Replace with an actual screenshot
           link: 'https://github.com/Losif01/Miki-the-tutor',
@@ -56,7 +56,7 @@ const CONFIG = {
         {
           title: 'AI Code Documentator',
           description:
-            'it is frustrating to find a project with no proper docs for developers, so here is an AI that is actually useful and gives clear documentation for a code base',
+            'An automated agentic AI tool engineered to eliminate the technical debt of undocumented codebases. By parsing complex project architectures, it leverages language models to generate clear, standardized, and developer-friendly documentation, drastically streamlining team onboarding and code maintainability.',
           imageUrl:
             'AIDocs.png', // Replace with an actual screenshot
           link: 'https://gitlab.com/skillIssueCM/ai-code-documentator-agent',
@@ -106,6 +106,7 @@ const CONFIG = {
       'Pytorch',
       'Tensorflow',
       'Visualization',
+
       // Infrastructure & Orchestration
       'Docker',
       'Docker Compose',
